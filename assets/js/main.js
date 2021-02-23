@@ -164,12 +164,6 @@
     });
   }
 
-  /**
-   * Initiate glightbox 
-   */
-  const glightbox = GLightbox({
-    selector: '.glightbox'
-  });
 
   /**
    * Porfolio isotope and filter
@@ -199,6 +193,15 @@
 
   });
 
+  
+  /**
+   * Initiate glightbox 
+   */
+  const glightbox = GLightbox({
+    selector: '.glightbox'
+  });
+  
+  
   /**
    * Initiate portfolio lightbox 
    */
