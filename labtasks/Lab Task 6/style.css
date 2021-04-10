@@ -1,0 +1,58 @@
+body
+{
+	background: #445f69;
+	display: grid;
+	font-size: 130%;
+	font-family: helvetica;
+	grid-template-columns: 35% auto 35%; 
+	grid-template-areas: 
+	". . ."
+	". content ."
+	". . .";
+}
+.content
+{	
+	grid-area: content;
+	background: #e5d791;
+	border: solid;
+	border-radius: 8px;
+}
+
+h3
+{
+	grid-area: head;
+	text-align: center;
+	margin-bottom: 0px;
+}
+p
+{
+	font-size: 65%;
+	margin: 0px auto 0px 10%; 
+	color: red;
+}
+.btn
+{
+	font-size: 85%;
+	font-family: helvetica;
+	padding: 5px 20px;
+	width: 80%;
+	display: block;
+    margin: 5px auto;
+}
+.form
+{	
+	font-size: 90%;
+	font-family: helvetica;
+	width: 80%; 
+	display: block;
+    margin: 18px auto 0px;
+}	
+.innerContent
+{
+	margin: 5px;
+	margin-bottom: 30px;
+}
+.registerBtn
+{
+	margin-top: 15px; 
+}

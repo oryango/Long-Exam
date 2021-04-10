@@ -1,0 +1,121 @@
+body
+{
+	font-family: arial;
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+  	grid-template-areas: 
+    "header header header header"
+    "first first first second"
+    "first first first fourth"
+    "third third third fourth"
+    "third third third fourth"
+    "third third third ."
+    "footer footer footer footer";
+  	row-gap: 10px;
+  	column-gap: 10px;
+
+}
+header
+{
+	grid-area: header;
+	background: #EDE7F6;
+}
+h1
+{
+	text-align: center;
+	font-size: 300%;
+}
+h2
+{
+	margin-left: 2%;
+}
+p
+{
+	margin-left: 2%;
+}
+.radio
+{
+	margin-left: 2%;
+	font-size: 85%;
+	margin-bottom: 2%;
+}
+.imge
+{
+	display: block;
+	width: 92%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+.navPanel
+{
+	background: #000000;
+	color: #FFFFFF;
+}/*
+.firstContent
+{
+	background: #EEEEEE;
+	display: inline-block;
+	width: 72%;
+	height: auto;
+	margin: 0.5%;
+}
+.secondContent
+{
+	background: #EEEEEE;
+	display: inline-block;
+	width: 25%;
+	margin: 0.5%;
+}
+.thirdContent
+{
+	background: #EEEEEE;
+	display: inline-block;
+	width: 72%;
+	height: auto;
+	margin: 0.5%;
+}
+.fourthContent
+{
+	background: #EEEEEE;
+	display: inline-block;
+	width: 25%;
+	height: auto;
+	margin: 0.5%;
+}
+footer
+{
+	background: #EEEEEE;
+	padding: 4%;
+	margin: 0.5%; 
+}*/
+footer p
+{	
+	text-align: center;
+}
+
+.firstContent
+{
+	grid-area: first;
+	background: #EDE7F6;
+}
+.secondContent
+{
+	grid-area: second;
+	background: #EDE7F6;
+}
+.thirdContent
+{
+	grid-area: third;
+	background: #EDE7F6;
+}
+.fourthContent
+{
+	grid-area: fourth;
+	background: #EDE7F6;
+}
+footer
+{
+	grid-area: footer;
+	background: #EDE7F6;
+}
